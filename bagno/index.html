@@ -10,7 +10,27 @@
 ">
 
   <link rel="stylesheet" href="/css_files/main.css">
-<style type="text/css"></style></head>
+<style type="text/css">
+video{
+  display:block;
+  width:400px;
+  height:300px;
+}
+video.scale2{
+  -moz-transform:scale(1.5);
+  -webkit-transform:scale(1.5);
+  -o-transform:scale(1.5);
+  -ms-transform:scale(1.5);
+  transform:scale(1.5);
+}
+
+.stage{
+  width:400px;
+  height:300px;
+  position:relative;
+  overflow:hidden;}</style>
+
+</head>
 
   <body data-pinterest-extension-installed="cr1.39.1">
 
@@ -47,14 +67,13 @@
     <embed src="/image_files/10ottobre2015Bagno.MP4" autostart="false" height="500" />
   </article>
 
-  <div class="stage">
     <video controls >
 
     <source src="/image_files/10ottobre2015Bagno.MP4" type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"'>
     <source src="/image_files/10ottobre2015Bagno.webm" type='video/webm; codecs="vp8, vorbis"' />
     Video not supported.
     </video>
-  </div>
+
   <div class="stage">
     <video controls class="scale2">
 
