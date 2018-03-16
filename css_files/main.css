@@ -44,6 +44,24 @@ figure > img {
 figcaption {
   font-size: 14px; }
 
+  /**
+   * Video
+   */
+
+   video{
+     display:block;
+     width:400px;
+     height:300px;
+   }
+   video.scale2{
+     -moz-transform:scale(1.5);
+     -webkit-transform:scale(1.5);
+     -o-transform:scale(1.5);
+     -ms-transform:scale(1.5);
+     transform:scale(1.5);
+   }
+
+
 /**
  * Lists
  */
