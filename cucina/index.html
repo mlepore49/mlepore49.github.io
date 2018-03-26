@@ -15,8 +15,8 @@ video{
   display:block;
   width:auto;
   height:300px;
-  /* position: relative;
-  left: 20px; */
+  position: relative;
+  left: 20px;
 }
 video.scale2{
   -moz-transform:scale(1.5);
@@ -79,50 +79,73 @@ video.scale2{
     <p> Qui i video e le foto delle perdite in Cucina.</p>
 
 
-    <!-- <div id="videoal"> -->
+
+    <div id="videoal">
+      <table style="width:100%">
+       <tr style="height:500px">
+                <video width="200" height="200" controls>
+                  <source src="/image_files/20_gennaio_2014_cucina.mp4" type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"'>
+                  <source src="/image_files/20_gennaio_2014_cucina.webm" type='video/webm; codecs="vp8, vorbis"' />
+                </video>
+           </tr>
+           <tr style="height:500px">
+               <video width="200" height="200" controls>
+                 <source src="/image_files/20_gennaio_2014_cucina.mp4" type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"'>
+                 <source src="/image_files/20_gennaio_2014_cucina.webm" type='video/webm; codecs="vp8, vorbis"' />
+               </video>
+        </tr>
+    </table>
+    </div>
+
+
+
+
+
       <table style="width:100%">
        <tr style="height:500px">
          <h1 id="13aprile2010cucina">13 aprile 2010</h1>
+        <div class="video" >
           <video controls class="scale2">
           <source src="/image_files/13aprile2010cucina.MOV" type="video/mp4">
           <source src="/image_files/13aprile2010cucina.webm" type='video/webm; codecs="vp8, vorbis"' />
           Video not supported.
           </video>
+        </div>
       </tr>
       <tr style="height:500px>
         <h1 id="20_gennaio_2014_cucina">20 gennaio 2014</h1>
-        <!-- <div class="video" > -->
+        <div class="video" >
 
           <video controls class="scale2">
           <source src="/image_files/20_gennaio_2014_cucina.mp4" type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"'>
           <source src="/image_files/20_gennaio_2014_cucina.webm" type='video/webm; codecs="vp8, vorbis"' />
           Video not supported.
           </video>
-        <!-- </div> -->
+        </div>
       </tr>
       <tr style="height:500px">
         <h1 id="30gennaio2015cucina">30 gennaio 2015</h1>
-        <!-- <div class="video" > -->
+        <div class="video" >
 
           <video controls class="scale2">
           <source src="/image_files/30gennaio2015cucina.mp4" type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"'>
           <source src="/image_files/30gennaio2015cucina.webm" type='video/webm; codecs="vp8, vorbis"' />
           Video not supported.
           </video>
-        <!-- </div> -->
+        </div>
       </tr>
       <tr style="height:500px">
         <h1 id="18marzo2018cucina">18 marzo 2018</h1>
-        <!-- <div class="video" > -->
+        <div class="video" >
 
           <video controls class="scale2">
           <source src="/image_files/18marzo2018cucina.MP4" type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"'>
           <source src="/image_files/18marzo2018cucina.webm" type='video/webm; codecs="vp8, vorbis"' />
           Video not supported.
           </video>
-        <!-- </div> -->
+        </div>
       </tr>
-    <!-- </div> -->
+    </table>
 
 
 
