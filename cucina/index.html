@@ -11,20 +11,38 @@
 
   <link rel="stylesheet" href="/css_files/main.css">
 <style type="text/css">
-video{
+/* video{
   display:block;
   width:auto;
   height:300px;
   position: relative;
   left: 20px;
-  /* top:; */
-}
-video.scale2{
+} */
+/* video.scale2{
   -moz-transform:scale(1.5);
   -webkit-transform:scale(1.5);
   -o-transform:scale(1.5);
   -ms-transform:scale(1.5);
   transform:scale(1.5);
+} */
+
+#videoal {
+  margin: 50px 20px 10px 20px
+  width: 440px;
+}
+
+#videoal div.video {
+    display: inline-block;
+    zoom: 1.5;
+    *display: inline;
+    width: 200px;
+    height: 200px;
+    margin: 0 10px 10px 0;
+}
+
+#videoal div.video video {
+    width: 100%;
+    height: 100%;
 }
 </style></head>
 
@@ -60,39 +78,83 @@ video.scale2{
   <article class="post-content">
     <p> Qui i video e le foto delle perdite in Cucina.</p>
 
-    <h1 id="13aprile2010cucina">13 aprile 2010cucina</h1>
+
+    <div id="videoal">
+        <div class="video">
+          <h1 id="13aprile2010cucina">13 aprile 2010cucina</h1>
+          <video controls>
+          <source src="/image_files/13aprile2010cucina.MOV" type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"'>
+          <source src="/image_files/13aprile2010cucina.webm" type='video/webm; codecs="vp8, vorbis"' />
+          Video not supported.
+          </video>
+        </div>
+        <div class="video">
+          <h1 id="20_gennaio_2014_cucina">20 gennaio 2014</h1>
+
+          <video controls >
+          <source src="/image_files/20_gennaio_2014_cucina.mp4" type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"'>
+          <source src="/image_files/20_gennaio_2014_cucina.webm" type='video/webm; codecs="vp8, vorbis"' />
+          Video not supported.
+          </video>
+        </div>
+        <div class="video">
+          <h1 id="30gennaio2015cucina">30 gennaio 2015</h1>
+
+          <video controls >
+          <source src="/image_files/30gennaio2015cucina.mp4" type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"'>
+          <source src="/image_files/30gennaio2015cucina.webm" type='video/webm; codecs="vp8, vorbis"' />
+          Video not supported.
+          </video>
+        </div>
+        <div class="video">
+          <h1 id="18marzo2018cucina">18 marzo 2018</h1>
+
+          <video controls class="scale2">
+          <source src="/image_files/18marzo2018cucina.MP4" type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"'>
+          <source src="/image_files/18marzo2018cucina.webm" type='video/webm; codecs="vp8, vorbis"' />
+          Video not supported.
+          </video>
+        </div>
+    </div>
+
+
+
+
+    <!-- <h1 id="13aprile2010cucina">13 aprile 2010cucina</h1>
 
     <video controls class="scale2">
     <source src="/image_files/13aprile2010cucina.MOV" type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"'>
     <source src="/image_files/13aprile2010cucina.webm" type='video/webm; codecs="vp8, vorbis"' />
     Video not supported.
-    </video>
+    </video> -->
 
-    <h1 id="20_gennaio_2014_cucina">20 gennaio 2014</h1>
+
+    <!-- <h1 id="20_gennaio_2014_cucina">20 gennaio 2014</h1>
 
     <video controls class="scale2">
     <source src="/image_files/20_gennaio_2014_cucina.mp4" type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"'>
     <source src="/image_files/20_gennaio_2014_cucina.webm" type='video/webm; codecs="vp8, vorbis"' />
     Video not supported.
-    </video>
+    </video> -->
 
 
-    <h1 id="30gennaio2015cucina">30 gennaio 2015</h1>
+
+    <!-- <h1 id="30gennaio2015cucina">30 gennaio 2015</h1>
 
     <video controls class="scale2">
     <source src="/image_files/30gennaio2015cucina.mp4" type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"'>
     <source src="/image_files/30gennaio2015cucina.webm" type='video/webm; codecs="vp8, vorbis"' />
     Video not supported.
-    </video>
+    </video> -->
 
 
-    <h1 id="18marzo2018cucina">18 marzo 2018</h1>
+    <!-- <h1 id="18marzo2018cucina">18 marzo 2018</h1>
 
     <video controls class="scale2">
     <source src="/image_files/18marzo2018cucina.MP4" type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"'>
     <source src="/image_files/18marzo2018cucina.webm" type='video/webm; codecs="vp8, vorbis"' />
     Video not supported.
-    </video>
+    </video> -->
 
   </article>
 </div>
