@@ -48,7 +48,7 @@ figcaption {
    * Video
    */
 
-   video{
+   /* video{
      display:block;
      width:400px;
      height:300px;
@@ -65,7 +65,7 @@ figcaption {
      width:400px;
      height:300px;
      position:relative;
-     overflow:hidden;}
+     overflow:hidden;} */
 
 /**
  * Lists
